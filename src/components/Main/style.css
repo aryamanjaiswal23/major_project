@@ -12,12 +12,12 @@
   overflow: hidden;
 }
 .main__wrapper1 {
-  height: 15rem;
+  /* height: 15rem; */
   position: relative;
   width: 100%;
 }
 .main__bgImage {
-  background-image: url(https://gstatic.com/classroom/themes/img_backtoschool.jpg);
+  background-image: url(https://kpriet.ac.in/asset/frontend/images/course/interested-electronics-communication.jpg);
   background-size: cover;
   height: 100%;
   left: 0;
@@ -69,11 +69,14 @@
   color: #fff;
   flex-wrap: wrap;
   margin-top: 0.5rem;
+  text-align:right;
 }
 .main__code {
   font-weight: 500;
   font-style: normal;
 }
+
+
 .main__announce {
   display: flex;
   /* justify-content: center; */
@@ -93,6 +96,8 @@
   font-weight: 400;
 }
 .main__status {
+  /* ye baad mai display sah kar daina */
+  display: none;
   border: 1.5px solid #dadce0;
   padding: 20px;
   border-radius: 10px;

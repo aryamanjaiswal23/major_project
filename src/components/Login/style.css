@@ -1,5 +1,5 @@
 .login {
-  background-color: #0b7e43;
+  background-color: #64a382;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -9,5 +9,9 @@
 
 .login__logo {
   object-fit: contain;
-  height: 90vh;
+  height: 80vh;
+}
+
+.login button{
+  margin: 10px;
 }
